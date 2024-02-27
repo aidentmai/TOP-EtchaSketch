@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  width: 180vh;
+  min-height: 100vh;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  height: 30px;
+  width: 30px;
+  box-sizing: border-box;
+}
+
+.box:hover {
+}
+
+.canvas {
+  display: flex;
+  flex-wrap: wrap;
+  width: 480px;
+  height: 480px;
+  border: solid 1px;
+  box-sizing: content-box;
+}
